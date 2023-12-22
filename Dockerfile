@@ -5,4 +5,4 @@ RUN pip install pyModbusTCP
 EXPOSE 502
 
 ENTRYPOINT ["python"]
-CMD ["inverter_simulator.py", "-t", "solaredge", "-H", "0.0.0.0", "-p", "502"]
+CMD ["simulator.py", "-t", "solaredge", "-H", "0.0.0.0", "-p", "502"]

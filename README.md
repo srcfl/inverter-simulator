@@ -20,3 +20,9 @@ Supported types are SolarEdge (default), Sungrow (and hybrid), Huawei and Growat
 ```bash
 python3 simulator.py -H 0.0.0.0 -t huawei
 ```
+
+Running this using docker is also possible. You can use the following command to run it with default options.
+
+```bash
+docker build -t modbus-simulator . && docker run -p 502:502 modbus-simulator
+```
